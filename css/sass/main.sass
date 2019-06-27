@@ -1,0 +1,195 @@
+// ===== Main =====
+
+
+// --- Imports ---
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i')
+
+// Modules
+@import modules/_variables
+@import modules/_mixins
+
+// Partials
+@import partials/_header
+@import partials/_footer
+
+
+// ==========================================
+
+
+// --- Global ---
+body
+  background: $white
+  font-family: $ff-os
+  color: $black
+  font-size: 14px
+  line-height: 1.8
+
+
+
+// --- Headings ---
+h1
+  color: $primary-color
+h2
+  color: $primary-color
+h3
+  color: $secondary-color
+h4
+  color: $secondary-color
+h5
+  color: $accent-color
+h6
+  color: $accent-color
+
+
+// --- Dividers ---
+hr
+
+
+// --- Paragraphs ---
+p
+
+
+// --- Lists ---
+ul
+  li
+    a
+
+ol
+  li
+    a
+
+
+// --- Anchors & Buttons ---
+a
+  &:visited
+  &:hover
+  &:focus
+
+button
+  &:visited
+  &:hover
+  &:focus
+
+
+// --- Utility ---
+
+
+// --- Floating Logos ---
+
+.floating-logos-container
+  overflow: hidden
+  height: 600px
+
+.floating-logos
+  position: relative
+  background: $white
+
+.bubble
+  position: absolute
+  width: 152px
+  height: 152px
+  border-radius: 50%
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 0 3px 10px rgba(0, 0, 0, 0.1)
+  background-image: url(../img/logos/floating-logos-spritesheet.png)
+  background-size: 1076px 1076px
+  z-index: 2
+  text-align: center
+
+  span
+    position: relative
+    text-align: center
+    margin: 0 auto
+    left: auto
+    right: auto
+    top: 150px
+    font-size: 12px
+    padding: 4px 12px
+    border-radius: 20px
+    text-transform: uppercase
+    background: $white
+    color: $black
+    opacity: 0
+    +transition(all, .3s)
+    z-index: 3
+    pointer-events: none
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 0 3px 10px rgba(0, 0, 0, 0.1)
+  &:hover
+    cursor: pointer
+    span
+      opacity: 1
+      top: 160px
+
+
+.logo1
+  background-position:   0      0
+.logo2
+  background-position:  -154px  0
+.logo3
+  background-position:  -308px  0
+.logo4
+  background-position:  -462px  0
+.logo5
+  background-position:  -616px  0
+.logo6
+  background-position:  -770px  0
+.logo7
+  background-position:  -924px  0
+.logo8
+  background-position:   0  -154px
+.logo9
+  background-position:  -154px -154px
+.logo10
+  background-position: -308px -154px
+.logo11
+  background-position: -462px -154px
+.logo12
+  background-position: -616px -154px
+.logo13
+  background-position: -770px -154px
+.logo14
+  background-position: -924px -154px
+.logo15
+  background-position:  0 -308px
+.logo16
+  background-position: -154px -308px
+.logo17
+  background-position: -308px -308px
+.logo18
+  background-position: -462px -308px
+.logo19
+  background-position: -616px -308px
+.logo20
+  background-position: -770px -308px
+.logo21
+  background-position: -924px -308px
+.logo22
+  background-position:  0     -462px
+.logo23
+  background-position: -154px -462px
+.logo24
+  background-position: -308px -462px
+.logo25
+  background-position: -462px -462px
+.logo26
+  background-position: -616px -462px
+.logo27
+  background-position: -770px -462px
+.logo28
+  background-position: -924px -462px
+.logo29
+  background-position:  0     -616px
+.logo30
+  background-position: -154px -616px
+.logo31
+  background-position: -308px -616px
+.logo32
+  background-position: -462px -616px
+.logo33
+  background-position: -616px -616px
+
+body
+  background: #FF0089
+  margin: 0px
+  padding: 0px
