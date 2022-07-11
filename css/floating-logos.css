@@ -1,0 +1,185 @@
+/* Floating Logos */
+.floating-logos-container {
+  overflow: hidden;
+  height: 600px
+}
+
+.floating-logos {
+  position: relative;
+  background: #fff
+}
+
+.bubble {
+  position: absolute;
+  width: 151px;
+  height: 151px;
+  border-radius: 50%;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 0 3px 10px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bubble span {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  left: auto;
+  right: auto;
+  top: 150px;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #000;
+  opacity: 0;
+  -webkit-transition: all, .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.bubble:hover {
+  cursor: pointer
+}
+
+.bubble:hover span {
+  opacity: 1;
+  top: 160px
+}
+
+.logo1 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142053/eae-alumni-logo_blizzard.png');
+}
+
+.logo2 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142048/eae-alumni-logo_bethesda.png');
+}
+
+.logo3 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142203/eae-alumni-logo_valve.png');
+}
+
+.logo4 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142124/eae-alumni-logo_microsoft_studios.png');
+}
+
+.logo5 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142130/eae-alumni-logo_niantic.png');
+}
+
+.logo6 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142028/eae-alumni-logo_2k.png');
+}
+
+.logo7 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142112/eae-alumni-logo_epic.png');
+}
+
+.logo8 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142143/eae-alumni-logo_riot.png');
+}
+
+.logo9 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142051/eae-alumni-logo_bioware.png');
+}
+
+.logo10 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142122/eae-alumni-logo_jamcity.png');
+}
+
+.logo11 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142138/eae-alumni-logo_oculus.png');
+}
+
+.logo12 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142135/eae-alumni-logo_nintendo.png');
+}
+
+.logo13 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142153/eae-alumni-logo_ubisoft.png');
+}
+
+.logo14 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142211/eae-alumni-logo_zynga.png');
+}
+
+.logo15 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142145/eae-alumni-logo_rockstar.png');
+}
+
+.logo16 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142140/eae-alumni-logo_rare.png');
+}
+
+.logo17 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142117/eae-alumni-logo_facebook.png');
+}
+
+.logo18 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142109/eae-alumni-logo_ea.png');
+}
+
+.logo19 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142041/eae-alumni-logo_amd.png');
+}
+
+.logo20 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142056/eae-alumni-logo_daz3d.png');
+}
+
+.logo21 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142132/eae-alumni-logo_nick.png');
+}
+
+.logo22 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142119/eae-alumni-logo_google.png');
+}
+
+.logo23 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142148/eae-alumni-logo_sony.png');
+}
+
+.logo24 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142200/eae-alumni-logo_usaf.png');
+}
+
+.logo25 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142035/eae-alumni-logo_amazon_games.png');
+}
+
+.logo26 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142104/eae-alumni-logo_disney.png');
+}
+
+.logo27 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142030/eae-alumni-logo_activision.png');
+}
+
+.logo28 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142208/eae-alumni-logo_wb.png');
+}
+
+.logo29 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142046/eae-alumni-logo_apple.png');
+}
+
+.logo30 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142033/eae-alumni-logo_adobe.png');
+}
+
+.logo31 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142114/eae-alumni-logo_espn.png');
+}
+
+.logo32 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142206/eae-alumni-logo_walmart.png');
+}
+
+.logo33 {
+  background-image: url('https://d1ggkj0laysj3f.cloudfront.net/wp-content/uploads/2019/09/23142106/eae-alumni-logo_dreamworks.png');
+}
